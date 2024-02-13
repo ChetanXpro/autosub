@@ -1,6 +1,6 @@
 # autosub
 
-This Tool uses ffmpeg and OpenAI's Open source Whisper model to automatically generate and overlay subtitles on any video.
+This Tool uses ffmpeg and (OpenAI Whisper's nodejs bindings)[https://github.com/ChetanXpro/nodejs-whisper] to automatically generate and overlay subtitles on any video.
 
 ## Installation
 
