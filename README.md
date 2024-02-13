@@ -16,3 +16,10 @@ brew install ffmpeg
 # on Windows using Chocolatey (https://chocolatey.org/)
 choco install ffmpeg
 ```
+
+
+Run this project
+
+```bash
+npm run start
+```
