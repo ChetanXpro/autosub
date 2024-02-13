@@ -28,5 +28,5 @@ npm run start
 
 ## Todo List
 
-- [ ] Add Command line interface support.
+- [ ]  Command line interface support.
 
