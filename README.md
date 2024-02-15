@@ -2,6 +2,10 @@
 
 autosub uses ffmpeg and [OpenAI Whisper's nodejs bindings](https://github.com/ChetanXpro/nodejs-whisper) to automatically generate and overlay subtitles on any video.
 
+### Performance
+
+- On Mac air m1 it takes less then 1 min to add subtitles in a 720p 4 min long video.
+
 ## Installation
 
 first You need to install ffmpeg, which is available from most package managers:
