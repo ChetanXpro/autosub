@@ -45,8 +45,8 @@ npm run start
 ```
 
 
-4. Available AI models to generate subtitles for video (bigger mode will give better result)
-- For me tiny.en model works fine .
+4. Available AI models to generate subtitles for video (bigger model will give better result)
+- For me tiny.en model works fine.
 - To changes AI model you need to change "modelName" value in transcription.ts
 
 | Model    | Disk    | Mem        |
