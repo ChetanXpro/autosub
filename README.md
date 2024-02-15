@@ -25,8 +25,8 @@ npm install
 
 Run this project
 
-Note: When you run this project for the first time, it will automatically download an AI model and then compile it. If you encounter any errors during this process,
-please raise an issue in the Nodejs-Whisper repository.
+- Note: When you run this project for the first time, it will automatically download an AI model and then compile it. If you encounter any errors during this process,
+please raise an issue in the [Nodejs-Whisper](https://github.com/ChetanXpro/nodejs-whisper) repository.
 
 ```bash
 npm run start
