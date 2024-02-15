@@ -17,13 +17,19 @@ brew install ffmpeg
 choco install ffmpeg
 ```
 
-Install all packages
+1. Install all packages
 ```bash
 npm install
 ```
+2. Enter video absolute path in videoPath variable in index.ts
 
+- Example
 
-Run this project
+```bash
+const videoPath = '/Users/chetan/Developer/autosub/assets/demo.mp4'
+``` 
+
+3. Run this project
 
 - Note: When you run this project for the first time, it will automatically download an AI model and then compile it. If you encounter any errors during this process,
 please raise an issue in the [Nodejs-Whisper](https://github.com/ChetanXpro/nodejs-whisper) repository.
