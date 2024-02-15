@@ -61,9 +61,10 @@ npm run start
 
 
 
-## TODO
+
 
 ## Todo List
 
 - [ ]  Command line interface support.
+- [ ]  Give user options to change subtitle styles
 
