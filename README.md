@@ -42,6 +42,7 @@ npm run start
 
 4. Available AI models to generate subtitles for video (bigger mode will give better result)
 - For me tiny model also works fine if i try it with short videos.
+- To changes ai model you need to change "modelName" value in transcription.ts
 
 | Model    | Disk    | Mem        |
 |----------|---------|------------|
@@ -57,7 +58,7 @@ npm run start
 | large-v2 | 2.9 GB  | ~4.7 GB    |
 | large    | 2.9 GB  | ~4.7 GB    | 
 
-- To changes ai model you need to change "modelName" value in transcription.ts
+
 
 
 ## TODO
