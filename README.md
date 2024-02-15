@@ -34,9 +34,28 @@ const videoPath = '/Users/chetan/Developer/autosub/assets/demo.mp4'
 - Note: When you run this project for the first time, it will automatically download an AI model and then compile it. If you encounter any errors during this process,
 please raise an issue in the [Nodejs-Whisper](https://github.com/ChetanXpro/nodejs-whisper) repository.
 
+
 ```bash
 npm run start
 ```
+
+
+4. Available AI models
+
+| Model    | Disk    | Mem        |
+|----------|---------|------------|
+| tiny     | 75 MB   | ~390 MB    |
+| tiny.en  | 75 MB   | ~390 MB    |
+| base     | 142 MB  | ~500 MB    | 
+| base.en  | 142 MB  | ~500 MB    | 
+| small    | 466 MB  | ~1.0 GB    |
+| small.en | 466 MB  | ~1.0 GB    |
+| medium   | 1.5 GB  | ~2.6 GB    |
+| medium.en| 1.5 GB  | ~2.6 GB    |
+| large-v1 | 2.9 GB  | ~4.7 GB    | 
+| large-v2 | 2.9 GB  | ~4.7 GB    |
+| large    | 2.9 GB  | ~4.7 GB    | 
+
 
 ## TODO
 
