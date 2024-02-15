@@ -11,7 +11,7 @@ export const addSubtitles = async (videoPath: string, videoOutputPath: string, s
 				)
 				.audioFilters('channelmap=0')
 				.audioBitrate('128k')
-				.output(`${videoOutputPath}/output.mp4`)
+				.output(`${videoOutputPath}`)
 				.outputOptions(['-map 0:v', '-map 0:a', '-y'])
 				.on('end', () => {
 					resolve('Subtitles added successfully')
