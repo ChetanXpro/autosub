@@ -22,8 +22,10 @@ brew install ffmpeg
 choco install ffmpeg
 ```
 
+Install Package
+
 ```bash
-npm install -g autosub-cli
+npm install -g autosub-
 ```
 
 ## Usage
