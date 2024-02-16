@@ -2,7 +2,6 @@ import ffmpeg from 'fluent-ffmpeg'
 
 export const addSubtitles = async (videoPath: string, videoOutputPath: string, subtitlePath: string) => {
 	try {
-		console.log('Adding subtitles to video')
 		return await new Promise((resolve, reject) => {
 			ffmpeg()
 				.input(videoPath)
