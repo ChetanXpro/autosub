@@ -2,11 +2,6 @@
 
 autosub uses ffmpeg and [OpenAI Whisper's nodejs bindings](https://github.com/ChetanXpro/nodejs-whisper) to automatically generate and overlay subtitles on any video.
 
-## Performance
-
-- On Mac air m1 it takes less then 1 min to add subtitles in a 720p 4 min long video.
-- Check example video example/sam_interview.mp4
-
 ## Installation
 
 Before using autosub, you need to have ffmpeg installed. You can install ffmpeg using your package manager:
@@ -23,6 +18,8 @@ choco install ffmpeg
 ```
 
 Install Package
+- Note: When you run this project for the first time, it will automatically download an AI model and then compile it. If you encounter any errors during this process,
+please raise an issue in the [Nodejs-Whisper](https://github.com/ChetanXpro/nodejs-whisper) repository.
 
 ```bash
 npm install -g autosub
@@ -47,18 +44,9 @@ Example:
 autosub generate -i User/chetan/Developer/video.mp4 -o  User/chetan/Developer/output.mp4
 ```
 
-3. Run this project
+## Development
 
-- Note: When you run this project for the first time, it will automatically download an AI model and then compile it. If you encounter any errors during this process,
-please raise an issue in the [Nodejs-Whisper](https://github.com/ChetanXpro/nodejs-whisper) repository.
-
-
-```bash
-npm run start
-```
-
-
-4. Available AI models to generate subtitles for video (bigger model will give better result)
+Available AI models to generate subtitles for video (bigger model will give better result)
 - For me tiny.en model works fine.
 - To changes AI model you need to change "modelName" value in transcription.ts
 
