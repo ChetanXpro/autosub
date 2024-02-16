@@ -25,7 +25,7 @@ choco install ffmpeg
 Install Package
 
 ```bash
-npm install -g autosub-
+npm install -g autosub
 ```
 
 ## Usage
