@@ -9,30 +9,41 @@ autosub uses ffmpeg and [OpenAI Whisper's nodejs bindings](https://github.com/Ch
 
 ## Installation
 
-first You need to install ffmpeg, which is available from most package managers:
+Before using autosub-cli, you need to have ffmpeg installed. You can install ffmpeg using your package manager:
 
 ```bash
-# on Ubuntu or Debian
+# On Ubuntu or Debian
 sudo apt update && sudo apt install ffmpeg
 
-# on MacOS using Homebrew (https://brew.sh/)
+# On macOS using Homebrew (https://brew.sh/)
 brew install ffmpeg
 
-# on Windows using Chocolatey (https://chocolatey.org/)
+# On Windows using Chocolatey (https://chocolatey.org/)
 choco install ffmpeg
 ```
 
-1. Install all packages
 ```bash
-npm install
+npm install -g autosub-cli
 ```
-2. Enter video absolute path in videoPath variable in index.ts
 
-- Example
+## Usage
+
+Generate subtitles for a video:
 
 ```bash
-const videoPath = '/Users/chetan/Developer/autosub/assets/demo.mp4'
-``` 
+autosub generate -i <Absolute path to video> -o <output path>
+```
+
+Options:
+
+- `-i, --input`: Absolute path to the input video file.
+- `-o, --output`: (Optional) Output path for the subtitled video. If not provided, the output will be saved in the same directory as the input file.
+
+Example:
+
+```bash
+autosub generate -i User/chetan/Developer/video.mp4 -o  User/chetan/Developer/output.mp4
+```
 
 3. Run this project
 
