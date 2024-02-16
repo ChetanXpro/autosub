@@ -9,7 +9,7 @@ autosub uses ffmpeg and [OpenAI Whisper's nodejs bindings](https://github.com/Ch
 
 ## Installation
 
-Before using autosub-cli, you need to have ffmpeg installed. You can install ffmpeg using your package manager:
+Before using autosub, you need to have ffmpeg installed. You can install ffmpeg using your package manager:
 
 ```bash
 # On Ubuntu or Debian
