@@ -7,6 +7,7 @@ export const createTranscription = async (filePath: string) => {
 		nodewhisper(filePath, {
 			modelName: 'tiny.en', //Downloaded models name
 			autoDownloadModelName: 'tiny.en', // (optional) autodownload a model if model is not present
+
 			whisperOptions: {
 				outputInText: false, // get output result in txt file
 				outputInVtt: false, // get output result in vtt file
