@@ -1,9 +1,15 @@
 {
-	"name": "typescript-starter",
+	"name": "autosub",
 	"version": "1.0.0",
 	"description": "",
 	"main": "dist/index.js",
-	"private": true,
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ChetanXpro/autosub"
+	},
 	"bin": {
 		"autosub": "./bin/index.js"
 	},
@@ -15,8 +21,29 @@
 		"build": "tsc",
 		"format": "prettier --write src/**/*.ts"
 	},
-	"keywords": [],
-	"author": "",
+	"keywords": [
+		"subtitles",
+		"autosub",
+		"generate subtitle",
+		"whisper",
+		"video subtitles",
+		"CLI",
+		"ffmpeg",
+		"OpenAI",
+		"automatic subtitle generation",
+		"multimedia",
+		"transcription",
+		"AI",
+		"overlay",
+		"video processing",
+		"nodejs"
+	],
+	
+	"author": "Chetan baliyan",
+	"homepage": "https://github.com/ChetanXpro/autosub#readme",
+	"bugs": {
+		"url": "https://github.com/ChetanXpro/autosub/issues"
+	},
 	"dependencies": {
 		"axios": "^1.6.7",
 		"chalk": "^4",
