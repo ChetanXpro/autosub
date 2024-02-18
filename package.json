@@ -1,6 +1,6 @@
 {
 	"name": "autosub",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Automatically generate and overlay subtitles for any video.",
 	"main": "dist/index.js",
 	"publishConfig": {
