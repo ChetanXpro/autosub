@@ -40,6 +40,7 @@
 	],
 	
 	"author": "Chetan baliyan",
+	"license": "MIT",
 	"homepage": "https://github.com/ChetanXpro/autosub#readme",
 	"bugs": {
 		"url": "https://github.com/ChetanXpro/autosub/issues"
