@@ -36,13 +36,13 @@ devDependencies:
     version: 2.1.24
   '@types/node':
     specifier: ^20.11.17
-    version: 20.11.28
+    version: 20.12.2
   prettier:
     specifier: ^3.2.5
     version: 3.2.5
   ts-node:
     specifier: ^10.9.2
-    version: 10.9.2(@types/node@20.11.28)(typescript@5.4.2)
+    version: 10.9.2(@types/node@20.12.2)(typescript@5.4.2)
   typescript:
     specifier: ^5.3.3
     version: 5.4.2
@@ -108,15 +108,15 @@ packages:
   /@types/fluent-ffmpeg@2.1.24:
     resolution: {integrity: sha512-g5oQO8Jgi2kFS3tTub7wLvfLztr1s8tdXmRd8PiL/hLMLzTIAyMR2sANkTggM/rdEDAg3d63nYRRVepwBiCw5A==}
     dependencies:
-      '@types/node': 20.11.28
+      '@types/node': 20.12.2
     dev: true
 
   /@types/node@10.17.60:
     resolution: {integrity: sha512-F0KIgDJfy2nA3zMLmWGKxcH2ZVEtCZXHHdOQs2gSaQ27+lNeEfGxzkIw90aXswATX7AZ33tahPbzy6KAfUreVw==}
     dev: false
 
-  /@types/node@20.11.28:
-    resolution: {integrity: sha512-M/GPWVS2wLkSkNHVeLkrF2fD5Lx5UC4PxA0uZcKc6QqbIQUJyW1jVjueJYi1z8n0I5PxYrtpnPnWglE+y9A0KA==}
+  /@types/node@20.12.2:
+    resolution: {integrity: sha512-zQ0NYO87hyN6Xrclcqp7f8ZbXNbRfoGWNcMvHTPQp9UUrwI0mI7XBz+cu7/W6/VClYo2g63B0cjull/srU7LgQ==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -520,7 +520,7 @@ packages:
     engines: {node: '>= 0.4'}
     dev: false
 
-  /ts-node@10.9.2(@types/node@20.11.28)(typescript@5.4.2):
+  /ts-node@10.9.2(@types/node@20.12.2)(typescript@5.4.2):
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
     peerDependencies:
@@ -539,7 +539,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.11.28
+      '@types/node': 20.12.2
       acorn: 8.11.3
       acorn-walk: 8.3.2
       arg: 4.1.3
