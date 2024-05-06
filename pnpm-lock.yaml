@@ -25,7 +25,7 @@ dependencies:
     version: 2.1.2
   nodejs-whisper:
     specifier: ^0.1.10
-    version: 0.1.10
+    version: 0.1.13
 
 devDependencies:
   '@types/dotenv':
@@ -413,8 +413,8 @@ packages:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
     dev: false
 
-  /nodejs-whisper@0.1.10:
-    resolution: {integrity: sha512-Z4eS17IUc+WqBJ9NWbS1PWBdyRt97dA+PTYs6GUSgmNWTKPV2h6HDB6Hl1QdVJ51JYL0thLKgN/Z7pm9Tmm+qw==}
+  /nodejs-whisper@0.1.13:
+    resolution: {integrity: sha512-+nh6GYRS4EVN0/RitUjfXn331Kc9P0g3GiUjF4M77R9jQKUba1MspS8A4AlHWW8T8EkB9sv4S8RFhBYZr/S+mw==}
     hasBin: true
     dependencies:
       ffmpeg-static: 5.2.0
