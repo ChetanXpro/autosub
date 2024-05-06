@@ -12,8 +12,8 @@ dependencies:
     specifier: ^4
     version: 4.1.2
   cli-spinners:
-    specifier: ^2.9.2
-    version: 2.9.2
+    specifier: ^3.0.0
+    version: 3.0.0
   commander:
     specifier: ^12.0.0
     version: 12.0.0
@@ -197,9 +197,9 @@ packages:
       supports-color: 7.2.0
     dev: false
 
-  /cli-spinners@2.9.2:
-    resolution: {integrity: sha512-ywqV+5MmyL4E7ybXgKys4DugZbX0FC6LnwrhjuykIjnK9k8OQacQ7axGKnjDXWNhns0xot3bZI5h55H8yo9cJg==}
-    engines: {node: '>=6'}
+  /cli-spinners@3.0.0:
+    resolution: {integrity: sha512-5p/5f8xOjTiyEpdc5KNulSLl5dOOgPQa/m4Rj6fF5UZubWIAvpVIJlnROBbJw+PZHKHlRlYv3KSfGYlecD7qrQ==}
+    engines: {node: '>=18.20'}
     dev: false
 
   /color-convert@2.0.1:
