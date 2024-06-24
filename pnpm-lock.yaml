@@ -36,13 +36,13 @@ devDependencies:
     version: 2.1.24
   '@types/node':
     specifier: ^20.11.17
-    version: 20.14.2
+    version: 20.14.8
   prettier:
     specifier: ^3.2.5
     version: 3.3.2
   ts-node:
     specifier: ^10.9.2
-    version: 10.9.2(@types/node@20.14.2)(typescript@5.4.5)
+    version: 10.9.2(@types/node@20.14.8)(typescript@5.4.5)
   typescript:
     specifier: ^5.3.3
     version: 5.4.5
@@ -98,11 +98,11 @@ packages:
   /@types/fluent-ffmpeg@2.1.24:
     resolution: {integrity: sha512-g5oQO8Jgi2kFS3tTub7wLvfLztr1s8tdXmRd8PiL/hLMLzTIAyMR2sANkTggM/rdEDAg3d63nYRRVepwBiCw5A==}
     dependencies:
-      '@types/node': 20.14.2
+      '@types/node': 20.14.8
     dev: true
 
-  /@types/node@20.14.2:
-    resolution: {integrity: sha512-xyu6WAMVwv6AKFLB+e/7ySZVr/0zLCzOa7rSpq6jNwpqOrUbcACDWC+53d4n2QHOnDou0fbIsg8wZu/sxrnI4Q==}
+  /@types/node@20.14.8:
+    resolution: {integrity: sha512-DO+2/jZinXfROG7j7WKFn/3C6nFwxy2lLpgLjEXJz+0XKphZlTLJ14mo8Vfg8X5BWN6XjyESXq+LcYdT7tR3bA==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -400,7 +400,7 @@ packages:
     engines: {node: '>= 0.4'}
     dev: false
 
-  /ts-node@10.9.2(@types/node@20.14.2)(typescript@5.4.5):
+  /ts-node@10.9.2(@types/node@20.14.8)(typescript@5.4.5):
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
     peerDependencies:
@@ -419,7 +419,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.14.2
+      '@types/node': 20.14.8
       acorn: 8.11.3
       acorn-walk: 8.3.2
       arg: 4.1.3
