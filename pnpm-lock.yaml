@@ -16,7 +16,7 @@ importers:
         version: 4.1.2
       cli-spinners:
         specifier: ^3.0.0
-        version: 3.0.0
+        version: 3.1.0
       commander:
         specifier: ^12.0.0
         version: 12.1.0
@@ -122,8 +122,8 @@ packages:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
     engines: {node: '>=10'}
 
-  cli-spinners@3.0.0:
-    resolution: {integrity: sha512-5p/5f8xOjTiyEpdc5KNulSLl5dOOgPQa/m4Rj6fF5UZubWIAvpVIJlnROBbJw+PZHKHlRlYv3KSfGYlecD7qrQ==}
+  cli-spinners@3.1.0:
+    resolution: {integrity: sha512-2MH0N34TpDAs9ROPVkZJfBWFoYfv4zfkJF14PBHY4v/qRY75SLcm4WaEKNCLScsXieosa/tY/+slJ+BDswJxHQ==}
     engines: {node: '>=18.20'}
 
   color-convert@2.0.1:
@@ -377,7 +377,7 @@ snapshots:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
 
-  cli-spinners@3.0.0: {}
+  cli-spinners@3.1.0: {}
 
   color-convert@2.0.1:
     dependencies:
