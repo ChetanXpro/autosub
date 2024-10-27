@@ -35,7 +35,7 @@ importers:
         version: 8.2.0
       '@types/fluent-ffmpeg':
         specifier: ^2.1.24
-        version: 2.1.24
+        version: 2.1.26
       '@types/node':
         specifier: ^22.7.7
         version: 22.7.7
@@ -81,8 +81,8 @@ packages:
     resolution: {integrity: sha512-ylSC9GhfRH7m1EUXBXofhgx4lUWmFeQDINW5oLuS+gxWdfUeW4zJdeVTYVkexEW+e2VUvlZR2kGnGGipAWR7kw==}
     deprecated: This is a stub types definition. dotenv provides its own type definitions, so you do not need this installed.
 
-  '@types/fluent-ffmpeg@2.1.24':
-    resolution: {integrity: sha512-g5oQO8Jgi2kFS3tTub7wLvfLztr1s8tdXmRd8PiL/hLMLzTIAyMR2sANkTggM/rdEDAg3d63nYRRVepwBiCw5A==}
+  '@types/fluent-ffmpeg@2.1.26':
+    resolution: {integrity: sha512-0JVF3wdQG+pN0ImwWD0bNgJiKF2OHg/7CDBHw5UIbRTvlnkgGHK6V5doE54ltvhud4o31/dEiHm23CAlxFiUQg==}
 
   '@types/node@20.14.10':
     resolution: {integrity: sha512-MdiXf+nDuMvY0gJKxyfZ7/6UFsETO7mGKF54MVD/ekJS6HdFtpZFBgrh6Pseu64XTb2MLyFPlbW6hj8HYRQNOQ==}
@@ -341,7 +341,7 @@ snapshots:
     dependencies:
       dotenv: 16.4.5
 
-  '@types/fluent-ffmpeg@2.1.24':
+  '@types/fluent-ffmpeg@2.1.26':
     dependencies:
       '@types/node': 20.14.10
 
