@@ -32,7 +32,7 @@ importers:
     devDependencies:
       '@types/dotenv':
         specifier: ^8.2.0
-        version: 8.2.0
+        version: 8.2.3
       '@types/fluent-ffmpeg':
         specifier: ^2.1.24
         version: 2.1.26
@@ -77,8 +77,8 @@ packages:
   '@tsconfig/node16@1.0.4':
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
 
-  '@types/dotenv@8.2.0':
-    resolution: {integrity: sha512-ylSC9GhfRH7m1EUXBXofhgx4lUWmFeQDINW5oLuS+gxWdfUeW4zJdeVTYVkexEW+e2VUvlZR2kGnGGipAWR7kw==}
+  '@types/dotenv@8.2.3':
+    resolution: {integrity: sha512-g2FXjlDX/cYuc5CiQvyU/6kkbP1JtmGzh0obW50zD7OKeILVL0NSpPWLXVfqoAGQjom2/SLLx9zHq0KXvD6mbw==}
     deprecated: This is a stub types definition. dotenv provides its own type definitions, so you do not need this installed.
 
   '@types/fluent-ffmpeg@2.1.26':
@@ -331,7 +331,7 @@ snapshots:
 
   '@tsconfig/node16@1.0.4': {}
 
-  '@types/dotenv@8.2.0':
+  '@types/dotenv@8.2.3':
     dependencies:
       dotenv: 16.4.5
 
